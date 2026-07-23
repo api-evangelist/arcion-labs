@@ -1,0 +1,12 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.arcion.io
+  https: false
+domains:
+- domain: arcion.io
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: false
